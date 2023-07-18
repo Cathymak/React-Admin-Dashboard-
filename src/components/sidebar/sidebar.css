@@ -8,7 +8,7 @@
   /* logo */
 
   
-  .logo {
+  .Logo {
     display: flex;
     height: 5rem;
     font-weight: bold;
@@ -16,13 +16,13 @@
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    height: 4%;
+   
   }
-  .logo>span>span {
-    color: orangered;
+  .Logo>span>span {
+    color: purple;
   }
   
-  .logo>img {
+  .Logo>img {
     width: 3rem;
     height: 3rem;
   }
@@ -33,7 +33,7 @@
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
   .menuItem {
     display: flex;

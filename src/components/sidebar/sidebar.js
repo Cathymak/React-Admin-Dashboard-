@@ -12,10 +12,25 @@ const sidebar = () => {
       <span>
           sh<span>o</span>ps
         </span>
-        <div> <UilEstate/> </div>
+         </div>
+
+<div className='menu'>
+
+<div className='menuItem'>
+
+<div> <UilEstate/></div>
+<span></span>
+
+</div>
+
+</div>
         <span> Dashboard</span>
     </div>
-  </div>
+
+
+
+
+
   )
 };
 export default sidebar;

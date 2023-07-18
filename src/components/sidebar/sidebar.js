@@ -1,6 +1,8 @@
 import React from 'react';
-import './sidebar.css';
+import './Sidebar.css';
 import Logo from '../../imgs/logo.png';
+import  UilEstate from '@iconscout/react-unicons/icons/uil-estate'
+
 
 const sidebar = () => {
   return(
@@ -10,6 +12,8 @@ const sidebar = () => {
       <span>
           sh<span>o</span>ps
         </span>
+        <div> <UilEstate/> </div>
+        <span> Dashboard</span>
     </div>
   </div>
   )

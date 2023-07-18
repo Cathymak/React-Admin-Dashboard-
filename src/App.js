@@ -1,10 +1,13 @@
 import './App.css';
-import sidebar from './components/sidebar/sidebar';
+import Sidebar from './components/sidebar/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <div className="AppGlass"> jkk </div>
+      <div className="AppGlass">
+      <Sidebar/>
+      
+      </div>
     </div>
   );
 }

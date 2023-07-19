@@ -16,13 +16,18 @@ const sidebar = () => {
       </div>
 
       <div className="menu">
-        <div className="menuItem">
-          <div>
-            <UilEstate />
+     
+      {SidebarData.map((item,index) => {
+
+        return (
+
+          <div className = "menuItem"> 
+          <item.icon/>
+          <span> {item.heading} </span>
           </div>
-          <span>Dashboard</span>
+        )
+      })}
         </div>
-      </div>
     </div>
   );
 };

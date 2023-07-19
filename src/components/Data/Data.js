@@ -1,11 +1,11 @@
 import {
   UilEstate,
-  uilClipboardAlt,
-  uilPackage,
-  uilChart,
-  uilUsersAlt,
-  uilSignOutAlt
-} from '@iconscout/react-unicons/icons/uil-estate';
+  UilClipboardAlt,
+  UilPackage,
+  UilChart,
+  UilUsersAlt,
+  UilSignOutAlt
+} from '@iconscout/react-unicons';
 
 
 export const SidebarData =[
@@ -15,22 +15,22 @@ export const SidebarData =[
 },
 
 {
-  icon: uilClipboardAlt,
+  icon: UilClipboardAlt,
   heading:"Orders",
 },
 
 {
-  icon: uilUsersAlt,
+  icon: UilUsersAlt,
   heading:"Customers",
 },
 
 {
-  icon: uilPackage,
+  icon: UilPackage,
   heading:"Products",
 },
 
 {
-  icon: uilChart,
+  icon: UilChart,
   heading:"Analytics",
 },
 

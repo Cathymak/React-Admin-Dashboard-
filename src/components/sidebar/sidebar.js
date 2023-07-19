@@ -2,6 +2,8 @@ import React from 'react';
 import './Sidebar.css';
 import Logo from '../../imgs/logo.png';
 import UilEstate from '@iconscout/react-unicons/icons/uil-estate';
+import { SidebarData } from '../Data/Data';
+
 
 const sidebar = () => {
   return (

@@ -16,7 +16,6 @@ const sidebar = () => {
       <div className="menu">
         <div className="menuItem">
           <div>
-            {' '}
             <UilEstate />
           </div>
           <span>Dashboard</span>

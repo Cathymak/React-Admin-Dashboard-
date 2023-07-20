@@ -21,7 +21,7 @@ const sidebar = () => {
 
         return (
 
-          <div className = "menuItem"> 
+          <div className = "menuItem active"> 
           <item.icon/>
           <span> {item.heading} </span>
           </div>

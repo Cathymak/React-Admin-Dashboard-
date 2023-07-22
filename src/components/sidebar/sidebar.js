@@ -5,11 +5,11 @@ import Logo from '../../imgs/logo.png';
 import { UilSignOutAlt } from '@iconscout/react-unicons';
 import { SidebarData } from '../Data/Data';
 
-const sidebar = () => {
-  const [selected, setSelected]= useState = 0;
+const Sidebar = () => {
+  const [selected, setSelected]= useState(0);
 
   return (
-    <div className="sidebar">
+    <div className="Sidebar">
       <div className="Logo">
         <img src={Logo} alt="logo" />
         <span>
@@ -21,9 +21,9 @@ const sidebar = () => {
         {SidebarData.map((item, index) => {
           return (
             <div
-              className={ selected === index ? 'menuItem active' : 'menuItem'}
-              key={index}
-              onClick={() => setSelected(index)}
+              className = { selected === index ? 'menuItem active' : 'menuItem'}
+              key = {index}
+              onClick = {() => setSelected(index)}
             >
 
               <item.icon />
@@ -39,4 +39,4 @@ const sidebar = () => {
     
   );
 };
-export default sidebar;
+export default Sidebar;

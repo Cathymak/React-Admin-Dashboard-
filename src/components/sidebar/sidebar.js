@@ -4,7 +4,6 @@ import './Sidebar.css';
 import Logo from '../../imgs/logo.png';
 import { UilSignOutAlt } from '@iconscout/react-unicons';
 import { SidebarData } from '../Data/Data';
-import { menuItem } from '@mui/material';
 
 const sidebar = () => {
   const [selected, setSelected]= useState = 0;
@@ -12,7 +11,7 @@ const sidebar = () => {
   return (
     <div className="sidebar">
       <div className="Logo">
-        <img src={Logo} alt="Logo" />
+        <img src={Logo} alt="logo" />
         <span>
           sh<span>o</span>ps
         </span>
@@ -26,7 +25,6 @@ const sidebar = () => {
               key={index}
               onClick={() => setSelected(index)}
             >
-
 
               <item.icon />
               <span> {item.heading} </span>

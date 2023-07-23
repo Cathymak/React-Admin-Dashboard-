@@ -25,7 +25,6 @@ const Sidebar = () => {
               key = {index}
               onClick = {() => setSelected(index)}
             >
-
               <item.icon />
               <span> {item.heading} </span>
             </div>
